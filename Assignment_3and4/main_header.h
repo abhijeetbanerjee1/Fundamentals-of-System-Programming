@@ -1,0 +1,16 @@
+extern void show_error(MYSQL *conn);
+extern void admin(MYSQL *conn);
+extern void insert_product_info(MYSQL *conn);
+extern void delete_product_info(MYSQL *conn);
+extern void display_list_product(MYSQL *conn);
+extern void delete_product(MYSQL *conn);
+extern void delete_product_item(MYSQL *conn);
+extern void display(MYSQL *conn, char prod[20]);
+extern void addcart(MYSQL *conn);
+extern void print_bill(MYSQL *conn);
+extern void search_prod(MYSQL *conn);
+extern void display_prod_details(MYSQL *conn);
+extern void display_num_prod(MYSQL *conn);
+extern void my_shopping_cart(MYSQL *conn);
+extern void display_row(MYSQL * conn, char prod[20]);
+extern void display_cart(MYSQL *conn);
