@@ -34,17 +34,6 @@ void my_shopping_cart(MYSQL *conn)
             goto m;
         break;
 	}
-	/*printf("\n\nDo you want to checkout ?");
-	printf("\n\nY/N ?: ");
-	scanf("%c", &ans);
-	if(ans == 'Y' )
-	{
-		print_bill(conn);
-	}
-	else
-	{
-		goto ans;
-	}*/
 }
 
 void addcart(MYSQL *conn)
